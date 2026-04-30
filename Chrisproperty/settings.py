@@ -159,9 +159,9 @@ CSRF_TRUSTED_ORIGINS = []
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587; #465
-EMAIL_USE_TLS = True
-EMAIL_USE_SSL = False
+EMAIL_PORT = 465;# 587; #465
+EMAIL_USE_TLS = False
+EMAIL_USE_SSL = True
 EMAIL_HOST_USER = 'rackenhusen@gmail.com'  # Replace with your email address
 EMAIL_HOST_PASSWORD = 'aclq ncif yknv cqso'  # Replace with your email password
 
