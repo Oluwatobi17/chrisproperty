@@ -16,9 +16,9 @@ class SendFormEmail(View):
         # """.format(first_name,last_name,email,address,phone);
 
         # print(data);
-        subject = 'Chris Property: New Application'
+        subject = 'Chris Homes: New Application'
         message = data;
-        recipient_list = ['hillhill6954@gmail.com','ganiuibrahim3000@gmail.com']  # Replace with the recipient's email addresses
+        recipient_list = ['ganiuibrahim3000@gmail.com']  # Replace with the recipient's email addresses
 
         send_custom_email(subject, message, recipient_list)
 
